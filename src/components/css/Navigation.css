@@ -1,0 +1,180 @@
+.Xorai_header {
+  width: 100%;
+  height: 40px;
+  background-color: black;
+}
+.Xorai {
+  color: wheat;
+  float: left;
+  margin-left: 10px;
+  font-weight: bolder;
+  margin-top: 7px;
+}
+.left_tags {
+  float: right;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 500px) {
+  .left_tags {
+    width: 50%;
+    margin-right: 5px;
+  }
+  .Xorai_header {
+    width: 55%;
+    height: 40px;
+    background-color: black;
+  }
+  .Nav_Sidebar .sidebar{
+    width: 20px;
+  }
+  .Xorai {
+    color: wheat;
+    float: left;
+    margin-left: 10px;
+    font-weight: bolder;
+    margin-top: 7px;
+  }
+  .lefty {
+    font-size: x-small;
+  }
+
+  span.numbers {
+    font-size: xx-small;
+  }
+  .lefthead3 {
+    margin-left: -10px;
+    width: 50%;
+  }
+  button.App12 {
+    font-size: xx-small;
+    width: 30px;
+  }
+
+  span.numbers {
+    margin-left: 0px;
+    font-weight: lighter;
+    font-size: xx-small;
+  }
+}
+.lefty {
+  color: white;
+  margin-right: 30px;
+}
+.header2 {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.appnt {
+  background-color: darkcyan;
+  color: white;
+  height: 30px;
+}
+.customer {
+  background-color: darkcyan;
+  color: white;
+  height: 30px;
+  margin-left: 2px;
+}
+.header3 {
+  width: 100%;
+  background-color: grey;
+  margin-top: 45px;
+  height: 30px;
+}
+.lefthead3 {
+  display: flex;
+  flex-direction: row;
+  float: left;
+}
+.App12 {
+  background-color: grey;
+  color: azure;
+  height: 30px;
+  border-color: grey;
+}
+.numbers {
+  margin-left: 15px;
+  color: black;
+  font-weight: bolder;
+  font-size: 15px;
+}
+.righthead3 {
+  float: right;
+}
+.sidebar {
+  width: 100px;
+  height: 1500px;
+  background-color: black;
+  float: left;
+}
+.side_text {
+  color: blanchedalmond;
+}
+.header4 {
+  width: 100%;
+  height: 40px;
+  background-color: lightgray;
+  margin-top: 5px;
+}
+.left {
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.tues {
+  font-weight: bolder;
+  margin-right: 5px;
+}
+.date {
+  margin-left: 10px;
+}
+.view {
+  float: right;
+}
+.vb {
+  margin-right: 10px;
+}
+.time {
+  width: 100px;
+  height: 40px;
+  background-color: black;
+  color: blanchedalmond;
+  font-weight: bold;
+  font-style: inherit;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.Status {
+  width: 100px;
+  height: 40px;
+  background-color: gray;
+  color: blanchedalmond;
+  font-weight: bold;
+  font-style: inherit;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.Advisor {
+  width: 100px;
+  height: 40px;
+  background-color: gray;
+  color: blanchedalmond;
+  font-weight: bold;
+  font-style: inherit;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.input {
+  width: 150px;
+}
+
+@media (min-width: 600px) {
+  .Nav_Sidebar{
+    height: 30vh;
+  }
+}
