@@ -69,6 +69,7 @@ and (-webkit-device-pixel-ratio : 3){
     align-items: flex-start;
     height: 18em;
     padding: 0 2px;
+    background:linear-gradient(109.476575498932deg, rgba(86, 216, 228,1) 5.911420204978038%,rgba(154, 206, 149,1) 95.95534407027817%)
   }
   .header2{
     display: flex;

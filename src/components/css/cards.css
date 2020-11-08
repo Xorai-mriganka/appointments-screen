@@ -2,8 +2,9 @@
 .Cards {
 	display: flex;
 	flex-direction: column;
-	background: wheat;
-	font-family: 'Poppins', sans-serif;
+	background:linear-gradient(109.476575498932deg, rgba(86, 216, 228,1) 5.911420204978038%,rgba(154, 206, 149,1) 95.95534407027817%);
+    font-family: 'Poppins', sans-serif;
+    padding : 1rem
 }
 .Cardmainheader {
 	display: flex;
@@ -25,11 +26,7 @@ h4 {
 	grid-template-rows: 1fr;
 	gap: 15px 15px;
 	grid-template-areas: '. . . .';
-	background: linear-gradient(
-		109.476575498932deg,
-		rgba(249, 231, 148, 1) 5.911420204978038%,
-		rgba(246, 190, 212, 1) 95.95534407027817%
-	);
+	background:linear-gradient(109.476575498932deg, rgba(86, 216, 228,1) 5.911420204978038%,rgba(154, 206, 149,1) 95.95534407027817%)
 }
 .card2 {
 	display: grid;
@@ -37,11 +34,7 @@ h4 {
 	grid-template-rows: 1fr;
 	gap: 15px 15px;
 	grid-template-areas: '. . . .';
-	background: linear-gradient(
-		109.476575498932deg,
-		rgba(249, 231, 148, 1) 5.911420204978038%,
-		rgba(246, 190, 212, 1) 95.95534407027817%
-	);
+	background:linear-gradient(109.476575498932deg, rgba(86, 216, 228,1) 5.911420204978038%,rgba(154, 206, 149,1) 95.95534407027817%)
 }
 .card3 {
 	display: grid;
@@ -49,11 +42,7 @@ h4 {
 	grid-template-rows: 1fr;
 	grid-template-areas: '. . . .';
 	gap: 15px 15px;
-	background: linear-gradient(
-		109.476575498932deg,
-		rgba(249, 231, 148, 1) 5.911420204978038%,
-		rgba(246, 190, 212, 1) 95.95534407027817%
-	);
+	background:linear-gradient(109.476575498932deg, rgba(86, 216, 228,1) 5.911420204978038%,rgba(154, 206, 149,1) 95.95534407027817%)
 }
 .SubcardName {
 	display: flex;
@@ -98,6 +87,8 @@ h4 {
 		flex-direction: column;
         width: 100%;
         padding: 2rem;
+        margin-left: 1rem;
+        margin-top : -0.5rem;
         align-items: center;
 	}
 	.card1 {
