@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Ubuntu:wght@300;700&display=swap');
+.Cards {
+	display: flex;
+	flex-direction: column;
+	background: wheat;
+	font-family: 'Poppins', sans-serif;
+}
+.Cardmainheader {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-content: flex-start;
+	align-items: flex-start;
+	font-family: 'Ubuntu', sans-serif;
+}
+h4 {
+	padding: 0.7rem;
+	font-weight: 300;
+
+	font-family: 'Ubuntu', sans-serif;
+}
+.card1 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	gap: 15px 15px;
+	grid-template-areas: '. . . .';
+	background: linear-gradient(
+		109.476575498932deg,
+		rgba(249, 231, 148, 1) 5.911420204978038%,
+		rgba(246, 190, 212, 1) 95.95534407027817%
+	);
+}
+.card2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	gap: 15px 15px;
+	grid-template-areas: '. . . .';
+	background: linear-gradient(
+		109.476575498932deg,
+		rgba(249, 231, 148, 1) 5.911420204978038%,
+		rgba(246, 190, 212, 1) 95.95534407027817%
+	);
+}
+.card3 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-template-areas: '. . . .';
+	gap: 15px 15px;
+	background: linear-gradient(
+		109.476575498932deg,
+		rgba(249, 231, 148, 1) 5.911420204978038%,
+		rgba(246, 190, 212, 1) 95.95534407027817%
+	);
+}
+.SubcardName {
+	display: flex;
+	flex-direction: row;
+    border: 1px rgb(240, 240, 240) solid;
+    font-size: 1.1em;
+}
+.left {
+	display: flex;
+	flex-direction: column;
+	float: left;
+}
+.right {
+	display: flex;
+	flex-direction: row;
+	margin-left: 2rem;
+	font-weight: 700;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-content: center;
+	align-items: flex-end;
+}
+.SubcardTime {
+	display: flex;
+	flex-direction: column;
+	border: 1px rgb(232, 232, 232) solid;
+}
+.SubcardContact {
+	display: flex;
+	flex-direction: column;
+	border: 1px rgb(253, 253, 253) solid;
+}
+.SubcardStatus {
+	display: flex;
+	flex-direction: column;
+	border: 1px rgb(253, 253, 253) solid;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
+	.Cards {
+		display: flex;
+		flex-direction: column;
+        width: 100%;
+        padding: 2rem;
+        align-items: center;
+	}
+	.card1 {
+		display: flex;
+        flex-direction: column;
+        padding : 1rem;
+	}
+	.card2 {
+		display: flex;
+        flex-direction: column;
+        padding : 1rem;
+	}
+	.card3 {
+		display: flex;
+        flex-direction: column;
+        padding : 1rem;
+    }
+    .Cardmainheader{
+        height: 4rem;
+        font-size: 16px;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 600;
+    }
+}

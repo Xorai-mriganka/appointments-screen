@@ -1,11 +1,14 @@
-import React from 'react';
-import Table from './table';
+import React, { Component } from 'react';
+import Card from "./cards";
 
-const TableContainer = props => (
-  <>
-    <Table/>
-  </>
-);
-
+class TableContainer extends Component {
+  render(){
+      return(
+        <>
+        <Card/>
+      </>
+      )    
+  }
+}
 
 export default TableContainer;

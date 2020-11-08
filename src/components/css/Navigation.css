@@ -31,7 +31,7 @@ and (-webkit-device-pixel-ratio : 3){
     margin-right: 5px;
   }
   .Xorai_header {
-    width: 100%;
+    width: 111%;
     height: 40px;
     background-color: black;
   }
@@ -50,8 +50,8 @@ and (-webkit-device-pixel-ratio : 3){
     font-size: x-small;
   }
   .sidebar {
-    margin-bottom: -5000px; /* any large number will do */
-  padding-bottom: 5000px
+    margin-bottom: -500px; /* any large number will do */
+  padding-bottom: 500px
   }
   span.numbers {
     font-size: xx-small;
@@ -93,12 +93,15 @@ and (-webkit-device-pixel-ratio : 3){
 
 .sidebar {
   width: 100px;
-  height: 1500px;
+  height: 1300px;
   background-color: black;
   float: left;
   font-size: 12px;
-  margin-bottom: -5000px; /* any large number will do */
+  /*  make infinite sidebar ,any large number will do */
+  /*
+  margin-bottom: -5000px; 
   padding-bottom: 5000px
+  */
 }
 .side_text {
   color: blanchedalmond;
