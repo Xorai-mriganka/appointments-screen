@@ -1,18 +1,17 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import "./css/Header.css"
 
 const Header = props => (
-    <>
-    <div>
-        <span className="header2">
+    <div className ="HeadContainer">
+    <div className="header2">
         <button className="appnt">NEW APPOINTMENT</button>
         <button className="customer">NEW CUSTOMER</button>
-      </span>
     </div>
     
 
       <div className="header3">
-        <span className="lefthead3">
+
+        <div className="lefthead3">
           <button className="App12">
             Appointments<span className="numbers">12</span>
           </button>
@@ -22,8 +21,9 @@ const Header = props => (
           <button className="App12">
             Waiting<span className="numbers">3</span>
           </button>
-        </span>
-        <span className="righthead3">
+        </div>
+
+        <div className="righthead3">
           <button className="App12">
             Working<span className="numbers">8</span>
           </button>
@@ -37,21 +37,23 @@ const Header = props => (
           <button className="App12">
             <span className="numbers">8:05AM</span>
           </button>
-        </span>
+        </div>
       </div>
       <div className="header4">
-        <span className="left">
-          <span className="tues">Tuesday</span>
-          <span className="date">May 22,2013</span>
-        </span>
-        <span className="view">
-          <span className="vb">View by</span>
+        <div className="left">
+          <div className="tues">Tuesday</div>
+          <div className="date">May 22,2013</div>
+        </div>
+        <div className="view">
+          <div className="vb">View by</div>
+          <div className="stackButton">
           <button className="time">TIME</button>
           <button className="Status">STATUS</button>
           <button className="Advisor">ADVISOR</button>
-        </span>
+          </div>
+        </div>
       </div>
-      </>
+      </div>
 );
 
 Header.propTypes = {};

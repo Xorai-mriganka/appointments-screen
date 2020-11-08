@@ -14,20 +14,24 @@ body {
 }
 
 .wrapper {
-  margin: 0 auto;
-  padding: 40px;
+  margin: 1rem auto;
   max-width: 800px;
 }
 
 .table {
   margin: 0 0 50px 0;
-  width: 100%;
+  width: 90%;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   display: table;
 }
 @media screen and (max-width: 580px) {
   .table {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: flex-end;
   }
 }
 

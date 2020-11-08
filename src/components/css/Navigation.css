@@ -16,18 +16,28 @@
   display: flex;
   flex-direction: row;
 }
-@media (max-width: 500px) {
+
+/* iphone-X*/
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3){
+  .Nav_sidebar{
+    height:18em;
+  }
   .left_tags {
-    width: 50%;
+    width: 100%;
     margin-right: 5px;
   }
   .Xorai_header {
-    width: 55%;
+    width: 100%;
     height: 40px;
     background-color: black;
   }
   .Nav_Sidebar .sidebar{
-    width: 20px;
+    width: 10px;
+    height: 100%;
   }
   .Xorai {
     color: wheat;
@@ -39,36 +49,22 @@
   .lefty {
     font-size: x-small;
   }
-
+  .sidebar {
+    margin-bottom: -5000px; /* any large number will do */
+  padding-bottom: 5000px
+  }
   span.numbers {
     font-size: xx-small;
   }
-  .lefthead3 {
-    margin-left: -10px;
-    width: 50%;
-  }
-  button.App12 {
-    font-size: xx-small;
-    width: 30px;
-  }
-
+  
   span.numbers {
     margin-left: 0px;
     font-weight: lighter;
     font-size: xx-small;
   }
 }
-.lefty {
-  color: white;
-  margin-right: 30px;
-}
-.header2 {
-  display: flex;
-  flex-direction: row;
-  float: right;
-  margin-top: 10px;
-  margin-right: 10px;
-}
+
+
 .appnt {
   background-color: darkcyan;
   color: white;
@@ -80,17 +76,8 @@
   height: 30px;
   margin-left: 2px;
 }
-.header3 {
-  width: 100%;
-  background-color: grey;
-  margin-top: 45px;
-  height: 30px;
-}
-.lefthead3 {
-  display: flex;
-  flex-direction: row;
-  float: left;
-}
+
+
 .App12 {
   background-color: grey;
   color: azure;
@@ -103,14 +90,15 @@
   font-weight: bolder;
   font-size: 15px;
 }
-.righthead3 {
-  float: right;
-}
+
 .sidebar {
   width: 100px;
   height: 1500px;
   background-color: black;
   float: left;
+  font-size: 12px;
+  margin-bottom: -5000px; /* any large number will do */
+  padding-bottom: 5000px
 }
 .side_text {
   color: blanchedalmond;
@@ -171,10 +159,4 @@
 }
 .input {
   width: 150px;
-}
-
-@media (min-width: 600px) {
-  .Nav_Sidebar{
-    height: 30vh;
-  }
 }
