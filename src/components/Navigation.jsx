@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import './css/Navigation.css';
 import Sidebar from './Sidebar';
 import Header from './Header.jsx';

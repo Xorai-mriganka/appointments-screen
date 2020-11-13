@@ -1,0 +1,44 @@
+
+ .searchbaranddate{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: flex-end;
+	align-items: center;
+	height: 60px;
+}
+.Datepicker{
+    margin-right: 5rem;
+	padding: 1rem;
+}
+.Searchbar{
+    margin-top: 2rem;
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3){
+    .searchbaranddate{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 10px 10px;
+        grid-template-areas:
+          ". .";
+    }
+    .Datepicker{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: no-wrap;
+        justify-content: flex-start;
+        align-content: flex-start;
+        align-items: flex-start;
+        color : black;
+        font-family: monospace;
+        font-weight: 600;
+        margin-bottom: -3rem;
+    }
+    .Searchbar{
+        margin-bottom: -2rem;
+        margin-left: 2rem;
+        padding : 2px 0x;
+    }
+}

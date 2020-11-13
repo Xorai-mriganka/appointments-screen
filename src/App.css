@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  
+}
+html,body {
+  margin:0;
+  padding:0;
 }
 /* iphone-X*/
 
@@ -10,4 +15,34 @@ and (-webkit-device-pixel-ratio : 3){
   .App {
     width: 100%;
   }
+  html,body {
+    margin:0;
+    padding:0;
+}
+}
+/* iphone 5,5se */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { 
+  .App {
+    width: 100%;
+  }
+  html,body {
+    margin:0;
+    padding:0;
+}
+}
+
+/* iphone-678*/
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+  .App {
+    width: 100%;
+  }
+  html,body {
+    margin:0;
+    padding:0;
+}
 }

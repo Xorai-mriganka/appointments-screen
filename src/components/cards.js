@@ -5,8 +5,7 @@ import SubcardContact from './subcardContact';
 import SubcardTime from './subcardTime';
 import './css/cards.css';
 import Divider from '@material-ui/core/Divider';
-import ListDividers from './List';
-
+import NotesAccordion from './notesaccordion';
 class Cards extends Component {
 	static defaultProps = {
 		Card1: [
@@ -56,46 +55,18 @@ class Cards extends Component {
 		return (
 			<>
 				<div className="Cards">
+				
 					<div className="Cardmainheader">
 						<h1>8:00</h1>
 						<h4>AM</h4>
 					</div>
+				
 					<Divider />
-					{this.props.Card1.map((p) => (
-						<div className="card1">
-							<SubcardName carname={p.carname} customername={p.customername} time={p.time} />
-							<SubcardContact contactnumber={p.contactnumber} service={p.service} />
-							<SubcardStatus status={p.status} statusname={p.statusname} />
-							<SubcardTime totaltime={p.totaltime} timeName={p.timeName} />
-						</div>
-					))}
-					<Divider />
-					{this.props.Card2.map((p) => (
-						<div className="card2">
-							<SubcardName carname={p.carname} customername={p.customername} time={p.time} />
-							<SubcardContact contactnumber={p.contactnumber} service={p.service} />
-							<SubcardStatus status={p.status} statusname={p.statusname} />
-							<SubcardTime totaltime={p.totaltime} timeName={p.timeName} />
-						</div>
-					))}
-					<Divider />
-					{this.props.Card3.map((p) => (
-						<div className="card3">
-							<SubcardName carname={p.carname} customername={p.customername} time={p.time} />
-
-							<SubcardContact contactnumber={p.contactnumber} service={p.service} />
-
-							<SubcardStatus status={p.status} statusname={p.statusname} />
-
-							<SubcardTime totaltime={p.totaltime} timeName={p.timeName} />
-						</div>
-					))}
-                    <Divider />
 					<div className="Cardmainheader">
 						<h1>12:00</h1>
 						<h4>AM</h4>
 					</div>
-                    <Divider />
+					<Divider />
 					{this.props.Card1.map((p) => (
 						<div className="card1">
 							<SubcardName carname={p.carname} customername={p.customername} time={p.time} />
@@ -114,6 +85,7 @@ class Cards extends Component {
 						</div>
 					))}
 					<Divider />
+					
 					{this.props.Card3.map((p) => (
 						<div className="card3">
 							<SubcardName carname={p.carname} customername={p.customername} time={p.time} />
@@ -125,6 +97,9 @@ class Cards extends Component {
 							<SubcardTime totaltime={p.totaltime} timeName={p.timeName} />
 						</div>
 					))}
+						<Divider />
+						<NotesAccordion/>
+						<Divider />
 				</div>
 			</>
 		);

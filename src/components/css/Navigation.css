@@ -17,53 +17,6 @@
   flex-direction: row;
 }
 
-/* iphone-X*/
-
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 812px)
-and (-webkit-device-pixel-ratio : 3){
-  .Nav_sidebar{
-    height:18em;
-  }
-  .left_tags {
-    width: 100%;
-    margin-right: 5px;
-  }
-  .Xorai_header {
-    width: 112%;
-    height: 40px;
-    background-color: black;
-  }
-  .Nav_Sidebar .sidebar{
-    width: 10px;
-    height: 100%;
-  }
-  .Xorai {
-    color: wheat;
-    float: left;
-    margin-left: 10px;
-    font-weight: bolder;
-    margin-top: 7px;
-  }
-  .lefty {
-    font-size: x-small;
-  }
-  .sidebar {
-    margin-bottom: -500px; /* any large number will do */
-  padding-bottom: 500px
-  }
-  span.numbers {
-    font-size: xx-small;
-  }
-  
-  span.numbers {
-    margin-left: 0px;
-    font-weight: lighter;
-    font-size: xx-small;
-  }
-}
-
 
 .appnt {
   background-color: darkcyan;
@@ -93,7 +46,7 @@ and (-webkit-device-pixel-ratio : 3){
 
 .sidebar {
   width: 100px;
-  height: 1300px;
+  height: 2090px;
   background-color: black;
   float: left;
   font-size: 12px;
@@ -106,12 +59,7 @@ and (-webkit-device-pixel-ratio : 3){
 .side_text {
   color: blanchedalmond;
 }
-.header4 {
-  width: 100%;
-  height: 40px;
-  background-color: lightgray;
-  margin-top: 5px;
-}
+
 .left {
   float: left;
   margin-left: 10px;
@@ -163,3 +111,142 @@ and (-webkit-device-pixel-ratio : 3){
 .input {
   width: 150px;
 }
+
+/* iphone 5,5se */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { 
+  .Nav_sidebar{
+    height:24em;
+  }
+  .left_tags {
+    width: 100%;
+    margin-right: 5px;
+  }
+  .Xorai_header {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+  }
+  .Nav_Sidebar .sidebar{
+    width: 10px;
+    height: 100%;
+  }
+  .Xorai {
+    color: wheat;
+    float: left;
+    font-weight: bolder;
+    margin-top: 7px;
+  }
+  .lefty {
+    font-size: x-small;
+  }
+  .sidebar {
+    height : 90%;
+    width: 5rem;
+    float: left;
+    text-align: center;
+    font-size: 10px;
+  }
+  span.numbers {
+    font-size: xx-small;
+  }
+  
+  span.numbers {
+    margin-left: 0px;
+    font-weight: lighter;
+    font-size: xx-small;
+  }
+}
+
+/* iphone-678*/
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+  .Nav_sidebar{
+    height:25em;
+  }
+  .left_tags {
+    width: 100%;
+    margin-right: 5px;
+  }
+  .Xorai_header {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+  }
+  .Nav_Sidebar .sidebar{
+    width: 10px;
+    height: 100%;
+  }
+  .Xorai {
+    color: wheat;
+    float: left;
+    margin-left: 10px;
+    font-weight: bolder;
+    margin-top: 7px;
+  }
+  .lefty {
+    font-size: x-small;
+  }
+  .sidebar {
+    height : 90%;
+  }
+  span.numbers {
+    font-size: xx-small;
+  }
+  
+  span.numbers {
+    margin-left: 0px;
+    font-weight: lighter;
+    font-size: xx-small;
+  }
+}
+
+/* iphone-X*/
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3){
+  .Nav_sidebar{
+    height:25em;
+  }
+  .left_tags {
+    width: 100%;
+    margin-right: 5px;
+  }
+  .Xorai_header {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+  }
+  .Nav_Sidebar .sidebar{
+    width: 10px;
+    height: 100%;
+  }
+  .Xorai {
+    color: wheat;
+    float: left;
+    margin-left: 10px;
+    font-weight: bolder;
+    margin-top: 7px;
+  }
+  .lefty {
+    font-size: x-small;
+  }
+  .sidebar {
+    height : 90%;
+  }
+  span.numbers {
+    font-size: xx-small;
+  }
+  
+  span.numbers {
+    margin-left: 0px;
+    font-weight: lighter;
+    font-size: xx-small;
+  }
+}
+
