@@ -1,4 +1,4 @@
-# 1st screen - Appointments
+# Xorai_screen_2 - Appointments
 
 #### 1.run "npm install" to install all dependency
 
